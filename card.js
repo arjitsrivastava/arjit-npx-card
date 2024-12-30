@@ -45,7 +45,7 @@ const actions = {
     SCHEDULE_MEETING: {
         name: `Schedule a ${chalk.redBright.bold("Meeting")}?`,
         action: () => {
-            open('https://calendly.com/arjits/30min');
+            open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3P1btp7rkRWUbUonywyZuNMGsrOA8YI-E8LBPwqyayNaV-JJ14UpbQ7uvCGMK3ZE80hjTOfeIa?gv=true');
             console.log("\nSee you at the meeting.\n");
         }
     },
